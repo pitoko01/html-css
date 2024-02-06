@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right,#FFDB40, #CC9714);
+}
+
+main{
+    background-color: #fdb398b6;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #946e0e;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+h1{
+    color: #3F00FF;
+    text-align: center;
+    text-shadow: 1px 1px 2px #1b006eb0;
+    font-family: 'Love', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+h2{
+
+}
+
+p{
+    text-align: justify;
+
+}
+@font-face {
+    font-family:'Love';
+    src: url('fonts/Sobiscuit.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

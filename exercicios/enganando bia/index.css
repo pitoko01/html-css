@@ -1,0 +1,34 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial sans-serif;
+    background-color: red;
+    height: 13vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-lis li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}

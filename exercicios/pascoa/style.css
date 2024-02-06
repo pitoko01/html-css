@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'titulo';
+    src: url('fonts/Rosa.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main{
+    background-color: #a052319d;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #db8b59c9;
+}
+
+body{
+    background-image: linear-gradient(to right,#A66943, #F1CEA8);
+    
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    font-family: 'titulo', Times, serif;
+    font-size: 100px;
+}
+h2{
+    color: yellow;
+}

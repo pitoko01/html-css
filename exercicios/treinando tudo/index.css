@@ -1,0 +1,26 @@
+img{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    position: relative;
+    right: 135px;
+    top: -130px;
+}
+body{
+    background-image: linear-gradient(to bottom, #D97B59, red);
+    position: absolute;
+}
+p{
+    position: relative;
+    top: -250px;
+}
+h2{
+    position: relative;
+    top: -250px;
+}
+ul{
+    position: relative;
+    top: -250px;
+    object-fit: cover;
+    left: 100px;
+}

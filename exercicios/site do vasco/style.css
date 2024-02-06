@@ -1,0 +1,136 @@
+:root{
+    --cor1: #404040;
+    --cor2: #0D0D0D;
+    --cor3: #A6A6A6;
+    --cor4: #F2F2F2;
+
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+
+body{
+    background-image: linear-gradient(to left, var(--cor3), var(--cor4));
+    font-family: var(--fonte-padrao);
+}
+
+
+header{
+   background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), transparent);
+   min-height: 150px;
+   text-align: center;
+   padding-top: 40px;
+}
+
+header > p{
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.4em;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.247);
+    text-align: center;
+}
+
+header > h1{
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.151);
+}
+
+nav{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.11);
+}
+
+nav > a{
+    color: var(--cor2);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor4);
+}
+
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1{
+    color: var(--cor2);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main h2{
+    font-size: 1.3em;
+    font-weight: normal;
+    color: var(--cor1);
+    background-image: linear-gradient(to left, var(--cor2), transparent);
+    text-indent: 8px;
+}
+
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+main strong{
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+main img{
+    width: 100%;
+}
+
+
+footer{
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor2);
+}
