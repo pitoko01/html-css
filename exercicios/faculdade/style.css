@@ -1,0 +1,116 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em; 
+
+  }
+
+  body{
+    background-color: #034159;
+    color: #0CF25D;
+  }
+
+  header{
+    text-align: center;
+    font-size: 2.5em;
+  }
+
+  .introducao{
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  table{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 250px;
+  }
+
+
+  .tag{
+    background-color: #034159;
+ }
+
+  .tags{
+    background-color: #034159;;
+ }
+
+  td{
+    background-color: #034159;
+ }
+
+ ol{
+  background-color: #025951;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #0cf25d3a;
+  min-height: 150px;
+  line-height: 1.5em;
+  
+
+ }
+ .web{
+    background-color: #025951;
+    display: flex;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+
+.separator {
+    width: 3px;
+    background-color: #0CF25D;
+    margin: 0 20px;
+  }
+
+
+
+
+
+
+  .formulario{
+    background-color: #025951;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    align-items: center;
+  }
+
+  #mensagem{
+    width: 300px;
+  }
+
+  input[type="submit"],
+  button {
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  }
+
+
+  input[type="submit"]:hover,
+  button:hover {
+  background-color: #45a049; 
+  }
+
+  #limpar-btn {
+  background-color: #f44336; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  }
+
+  #limpar-btn:hover {
+  background-color: #d32f2f; 
+  }
+
