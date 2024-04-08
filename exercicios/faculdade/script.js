@@ -8,3 +8,5 @@ function limparFormulario() {
     document.getElementById("form-contato").reset();
     console.log('apagou')
   }
+
+
