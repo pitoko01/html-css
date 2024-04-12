@@ -46,9 +46,11 @@
   border-radius: 10px;
   box-shadow: 1px 1px 1px #0cf25d3a;
   min-height: 150px;
+  max-width: 800px;
   line-height: 1.5em;
+  margin-left: 10px;
+  margin-right: 80px;
   
-
  }
  .web{
     background-color: #025951;
@@ -114,3 +116,7 @@
   background-color: #d32f2f; 
   }
 
+.listab{
+  display: flex;
+  
+}
