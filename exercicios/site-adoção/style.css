@@ -393,3 +393,8 @@ footer > div{
     width: 150px;
     height: 100px;
 }
+
+.icones-footer{
+    display: grid;
+    justify-content: center;
+}

@@ -10,15 +10,19 @@
 <body>
     <div class="login">
         <div>
-            <h1>Faça seu Login</h1>
-            <img src="imagens/tela-login2-removebg.png" alt="tela-login">
+            <h1>Faça seu cadastro</h1>
+            <img src="imagens/tela-login-removebg-preview.png" alt="tela-login">
         </div>
          <!--Container da tela de login-->
          <div class="container">
-            <h2>Login</h2>
+            <h2>Cadastre-se</h2>
         
             <!--Inicio do formulario-->
             <form action="index.html" method="post">
+                <div class="input-field">
+                    <input type="text" id="nome" placeholder="alguma coisa">
+                    <label for="nome">Nome:</label>
+                </div>
                 <div class="input-field">
                     <input type="text" id="nome" placeholder="alguma coisa">
                     <label for="nome">Email:</label>
@@ -27,18 +31,26 @@
                     <input type="password" id="senha" placeholder="alguma coisa">
                     <label for="senha">Senha:</label>
                 </div>
+                <div class="input-field">
+                    <input type="password" id="senha" placeholder="alguma coisa">
+                    <label for="senha">Confirme sua senha:</label>
+                </div>
+                <div class="input-field">
+                    <input type="text" autocomplete="off" id="cpf" maxlength="14" placeholder="alguma coisa">
+                    <label for="cpf">CPF:</label>
+                    <script src="cpf.js"></script>
+                </div>
+
                 <div class="center">
-                    <a href="index.html"><button>Entrar</button></a>
+                    <a href="index.html"><button>Cadastrar</button></a>
                 </div>
             </form><!--Fim do Formulario-->
-            <div class="links-uteis">
+            <!--<div class="links-uteis">
                 <div class="links">
                     <a href="#"><i class="fa-brands fa-facebook fa-2xl" style="color: #004275; margin-bottom: 23px; display: flex;" ></i></a>
                     <a href="#"><i class="fa-brands fa-google fa-2xl" style="color: #004275; margin-bottom: 23px; display: flex;"></i></a>
                     <a href="#"><i class="fa-brands fa-github fa-2xl" style="color: #004275; margin-bottom: 23px; display: flex;"></i></a>
-                </div>
-                <a href="#"><p>Esqueceu a sua senha ?</p></a>
-                <a href="cadastro.html"><p>Não possue conta? Cadastre-se</p></a>
+                </div>-->
 
             </div>
         </div>
