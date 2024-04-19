@@ -4,11 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro exercício</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
-    <hr>
-    <p>Esse é o meu primeiro documento HTML! Estou muito feliz!</p>
-    <p>Este é um momento único! Estou criando um site!</p>
+    
+<div>
+  <button class="saiba-mais" showModal="modal1">Saiba mais</button>
+  <dialog id="modal1">
+    <h2>Title</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+    <button onclick="fecharModal('modal1')">Fechar</button>
+  </dialog>
+</div>
+
+<div>
+  <button class="saiba-mais" showModal="modal2">Saiba mais</button>
+  <dialog id="modal2">
+    <h2>oi</h2>
+    <p>TESTE</p>
+    <button onclick="fecharModal('modal2')">Fechar</button>
+  </dialog>
+</div>
+<div>
+  <button class="saiba-mais" showModal="modal3">Saiba mais</button>
+  <dialog id="modal3">
+    <h2>olá</h2>
+    <p>KKKKKKKKKKKKKKKKKKKKKKKKKKK</p>
+    <button onclick="fecharModal('modal3')">Fechar</button>
+  </dialog>
+</div>
+<div class="card">
+  <img src="assets/uva.jpg">
+  <div>
+    <h1>Uva</h1>
+    <h2>Fonte de vitamina</h2>
+    <span>R$ 7,90</span>
+    <button class="saiba-mais" showModal="modal4">Saiba mais</button>
+    <dialog id="modal4">
+      <h2>SE DEUS QUISER AGORA VAI</h2>
+      <p>TESTE PRA VER SE FUNCIONOU</p>
+      <button onclick="fecharModal('modal4')">Fechar</button>
+    </dialog>
+  </div>
+</div>
+    <script src="main.js"></script>
 </body>
 </html>

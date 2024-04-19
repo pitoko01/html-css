@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="fontawesome-free-6.5.2-web/css/all.min.css">
 </head>
 <body>
+  
+
     <header>
         <nav class="nav-bar">
             <div class="logo">
@@ -67,20 +69,6 @@
         </div>
         <img src="imagens/cat-dog-insta.png" alt="insta" class="img-insta">
     </div>
-    <!--<div class="custom-select">
-        <select id="Animais" name="Animais">
-          <option disabled selected>Selecione uma opção</option>
-          <option value="todos os animais">Todos os animais</option>
-          <option value="adocao">Adoção</option>
-        </select>
-      </div>
-      <div class="custom-select">
-        <select id="Animais" name="Animais">
-          <option disabled selected>Selecione o animal</option>
-          <option value="cachorro">Cachorro</option>
-          <option value="gato">Gato</option>
-        </select>
-    </div> -->
 
     <div class="botoes">
         <button class="adotar">Quero adotar</button>
@@ -96,15 +84,26 @@
             <div>
               <h1 class="nome">Zeus</h1>
               <p class="info">Gatinho de 2 meses </p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal1">Saiba mais</button>
+              <dialog id="modal1">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal1')">Fechar</button>
+              </dialog>
             </div>
           </div>
+
           <div class="card">
             <img src="imagens/adorable-dog-shelter-outside-waiting-be-adopted.jpg" alt="pet">
             <div>
               <h1 class="nome">Carol</h1>
               <p class="info">Cadela de 1 ano</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal2">Saiba mais</button>
+              <dialog id="modal2">
+                <h2>Teste</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal2')">Fechar</button>
+              </dialog>
             </div>
           </div>
           <div class="card">
@@ -112,7 +111,12 @@
             <div>
               <h1 class="nome">Galego</h1>
               <p class="info">Cachorro de 3 meses</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal3">Saiba mais</button>
+              <dialog id="modal3">
+                <h2>Title3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal3')">Fechar</button>
+              </dialog>
             </div>
           </div>
           <div class="card">
@@ -120,10 +124,14 @@
             <div>
               <h1 class="nome">Thor</h1>
               <p class="info">Cachorro de 3 anos</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal4">Saiba mais</button>
+              <dialog id="modal4">
+                <h2>Title4</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal4')">Fechar</button>
+              </dialog>
             </div>
           </div>
-          
     </div>
     <div class="main-card">
         <div class="card">
@@ -131,7 +139,12 @@
             <div>
               <h1 class="nome">Café</h1>
               <p class="info">Cachorro de 3 meses</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal5">Saiba mais</button>
+              <dialog id="modal5">
+                <h2>Title5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal5')">Fechar</button>
+              </dialog>
             </div>
           </div>
           <div class="card">
@@ -139,7 +152,12 @@
             <div>
               <h1 class="nome">Pelé</h1>
               <p class="info">Cachorro de 2 anos</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal6">Saiba mais</button>
+              <dialog id="modal6">
+                <h2>Title6</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal6')">Fechar</button>
+              </dialog>
             </div>
           </div>
           <div class="card">
@@ -147,7 +165,12 @@
             <div>
               <h1 class="nome">Branca de Neve</h1>
               <p class="info">Cadela de 2 anos</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal7">Saiba mais</button>
+              <dialog id="modal7">
+                <h2>Title7</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal7')">Fechar</button>
+              </dialog>
             </div>
           </div>
           <div class="card">
@@ -155,10 +178,14 @@
             <div>
               <h1 class="nome">Caramelo</h1>
               <p class="info">Cachorro de 5 meses</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal8">Saiba mais</button>
+              <dialog id="modal8">
+                <h2>Title8</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal8')">Fechar</button>
+              </dialog>
             </div>
-          </div>
-          
+          </div>      
     </div>
     <div class="main-card">
         <div class="card">
@@ -166,7 +193,12 @@
             <div>
               <h1 class="nome">Juninho</h1>
               <p class="info">Cachorro de 7 meses</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal9">Saiba mais</button>
+              <dialog id="modal9">
+                <h2>Title9</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal9')">Fechar</button>
+              </dialog>
             </div>
           </div>
           <div class="card">
@@ -174,7 +206,12 @@
             <div>
               <h1 class="nome">Zé Ricardo</h1>
               <p class="info">Gato de 2 anos</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal10">Saiba mais</button>
+              <dialog id="modal10">
+                <h2>Title10</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal10')">Fechar</button>
+              </dialog>
             </div>
           </div>
           <div class="card">
@@ -182,7 +219,12 @@
             <div>
               <h1 class="nome">Amélia</h1>
               <p class="info">Gata de 8 meses</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal11">Saiba mais</button>
+              <dialog id="modal11">
+                <h2>Title11</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal11')">Fechar</button>
+              </dialog>
             </div>
           </div>
           <div class="card">
@@ -190,12 +232,15 @@
             <div>
               <h1 class="nome">Floquinho</h1>
               <p class="info">Gato de 1 ano</p>
-              <button class="saiba-mais">Saiba mais</button>
+              <button class="saiba-mais" showModal="modal12">Saiba mais</button>
+              <dialog id="modal12">
+                <h2>Title12</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem consequatur reprehenderit aliquid voluptate sed corrupti, vero repellendus consequuntur dolore sunt nostrum doloribus dolor quia quod totam soluta, mollitia maxime?</p>
+                <button onclick="fecharModal('modal12')">Fechar</button>
+              </dialog>
             </div>
-          </div>
-          
+          </div> 
     </div>
-    
     <div class="pq-adotar">
         <h1 class="titulo4">Por que adotar um animal?</h1>
         <div class="motivos">
@@ -214,7 +259,6 @@
             </div>
         </div>
     </div>
-
     <footer id="contatos">
         <ul>
             <li>AJUDE</li>
@@ -233,7 +277,7 @@
         <ul>
             <li>PERFIL</li>
             <li><a href="#">Minha conta</a></li>
-            <li><a href="#">Cadastre-se</a></li>
+            <li><a href="cadastro.html">Cadastre-se</a></li>
 
         </ul>
 
@@ -247,6 +291,6 @@
             <img src="imagens/meadotejp.png" alt="footer">
         </div>
     </footer>
-
+  <script src="js/main.js"></script>
 </body>
 </html>
