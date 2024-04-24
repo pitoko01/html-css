@@ -154,6 +154,8 @@ span{
     align-items: center; 
     font-family: "Brygada 1918", serif;
     font-style: normal;
+    padding: 60px;
+    line-height: 2.5em;
 }
 
 .texto {
@@ -255,6 +257,11 @@ span{
     background-color: #007E7A;
 }
 
+span{
+    display: grid;
+    font-size: 1em;
+}
+
 dialog::backdrop{
     background-color: rgb(0 0 0 / .4);
 
@@ -264,7 +271,10 @@ dialog {
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.3);
-    width: 80%;
+    width: 30%;
+    height: 28%;
+    padding: 10px;
+    line-height: 1.7em;
     margin: auto;
     animation: flipInY 0.8s ease forwards;
     opacity: 0;
